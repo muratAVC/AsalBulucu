@@ -6,6 +6,7 @@ public class Rasal {
         boolean kontrol=true;
         System.out.println("bir sayı giriniz");
         int i=girdi.nextInt();
+
         for (int j = 2; j < i; j++) {
             if (i%j==0){
                 kontrol=false;
